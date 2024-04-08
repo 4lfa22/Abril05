@@ -5,7 +5,7 @@ public class Flauta extends InstrumentoMusical{
 
     @Override
     public String emitirSonido() {
-        return super.emitirSonido()+" flauta";
+        return "Sonido flauta";
     }
 
     public Flauta(String marca, String material) {

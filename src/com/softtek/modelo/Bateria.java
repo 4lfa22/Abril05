@@ -5,7 +5,7 @@ public class Bateria extends InstrumentoMusical{
 
     @Override
     public String emitirSonido() {
-        return super.emitirSonido()+" platillos";
+        return "Sonido platillos";
     }
 
     public Bateria (String marca, int noPlatillos){

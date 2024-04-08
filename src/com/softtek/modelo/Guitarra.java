@@ -6,7 +6,7 @@ public class Guitarra extends InstrumentoMusical{
 
     @Override
     public String emitirSonido() {
-        return super.emitirSonido()+" guitarra";
+        return "Sonido guitarra";
     }
 
     public Guitarra(String marca, String cuerdas) {
